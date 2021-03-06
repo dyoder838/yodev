@@ -1,0 +1,60 @@
+[{
+    "id": 1,
+    "title": "Password Generator",
+    "image": "images/password-generator.PNG",
+    "repository": "https://github.com/dyoder838/dans_password_generator_ptdux.git",
+    "liveLink": "https://dyoder838.github.io/dans_password_generator_ptdux/",
+    "description": "Password Generator is one of my first apps. The App prompts the user for input variables like; password length, upper and lower case letters, and special characters."
+    },
+    {
+      "id": 2,
+      "title": "Work Day Scheduler",
+      "image": "images/work-day-scheduler.PNG",
+      "repository": "https://github.com/dyoder838/dans_daily_scheduler.git",
+      "liveLink": "https://dyoder838.github.io/dans_daily_scheduler/",
+      "description": "Work Day Scheduler is the 5th app I have built, it is a simple app that records what you input in the time fields. The time fields change color with the current time. The input is saved in local storage."
+    },
+    {
+      "id": 3,
+      "title": "CityScoop",
+      "image": "images/cityscoop.PNG",
+      "repository": "https://github.com/dyoder838/CityScoop.git",
+      "liveLink": "https://dyoder838.github.io/CityScoop/",
+      "description": "CityScoop is my first collaborative development project. Our 5 developer team invented an app that allows a user to research information on any city, using only our app with no external links."
+    },
+    {
+      "id": 4,
+      "title": "PODS",
+      "image": "images/PODS.PNG",
+      "repository": "https://github.com/dyoder838/POD.git",
+      "liveLink": "https://boiling-beach-31279.herokuapp.com/",
+      "description": "PODS is my second collaborative development project. Our 4 developer team engineered an app that creates a community of support for school-from-home children and their parents during the pandemic."
+    },
+    {
+      "id": 5,
+      "title": "Minnisvart",
+      "image": "images/Minnisvart.PNG",
+      "repository": "https://github.com/kbnewlon/project3.git",
+      "liveLink": "https://minnesvart.herokuapp.com/",
+      "description": "Minnisvart is an app that connects users to local mini-adventures. It is a collaborative development project built by a team of five. This app has two repos; Front End and Back End, connected through CORS."
+    },
+    {
+      "id": 6,
+      "title": "Progressive Budget",
+      "image": "images/Budget.PNG",
+      "repository": "https://github.com/dyoder838/Progressive-Budget.git",
+      "liveLink": "https://desolate-oasis-62895.herokuapp.com/",
+      "description": "This app is an exercise in Mongo database and PWA - adding offline useability to an app. I have created a simple budget tracker using express and mongoose with an MVC framework."
+    }]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
