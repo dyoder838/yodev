@@ -9,6 +9,7 @@ import Image from '../../Assets/Images/djy4.jpg'
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: '100%',
+    borderRadius: 0,
   },
   media: {
         [theme.breakpoints.between('2560', '3840')]: {

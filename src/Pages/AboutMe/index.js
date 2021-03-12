@@ -28,13 +28,13 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.between('1920','2560')]: {
             //2k
             position: 'absolute',
-            top: '30%',
+            top: '20%',
             left: '10%'
           },
         [theme.breakpoints.between('1280', '1920')]: {
             //1080
             position: 'absolute',
-            top: '30%',
+            top: '28%',
             left: '10%'
           },
         [theme.breakpoints.between('960', '1280')]: {
@@ -51,24 +51,9 @@ const useStyles = makeStyles((theme) => ({
           },
         [theme.breakpoints.between('0', '600')]: {
             //cell phones
+            background: 'white',
             
           },
-        
-        // [theme.breakpoints.up('lg')]: {
-        //     position: 'absolute',
-        //     top: '30%',
-        //     left: '10%'
-        // },
-        // [theme.breakpoints.up('md')]: {
-        //    position: 'absolute',
-        //    top: '25%',
-        //    left: '5%'
-        // },
-        // [theme.breakpoints.up('sm')]: {
-        //     position: 'absolute',
-        //     top: '10%',
-        //     left: '5%'
-        //  }
     },
 }));
 
@@ -96,7 +81,7 @@ export default function AboutMe() {
                         <ImageCard />
                     </Grid>
 
-                    <Grid className={classes.bio} item xs={12} sm={6} md={7} lg={4}>
+                    <Grid className={classes.bio} item xs={12} sm={7} md={7} lg={4}>
                         <BioCard />
                     </Grid>
 

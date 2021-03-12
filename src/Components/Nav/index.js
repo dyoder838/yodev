@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     },
     sectionDesktop: {
         display: 'none',
-        [theme.breakpoints.up('md')]: {
+        [theme.breakpoints.up('sm')]: {
             display: 'flex',
             position: 'absolute',
             right: '0px',
@@ -74,11 +74,13 @@ export default function PrimarySearchAppBar() {
             onClose={handleMobileMenuClose}
         >
             <MenuItem>
+
                 <Button aria-label="About Me" href='/' >About Me</Button>
 
             </MenuItem>
 
             <MenuItem>
+
                 <Button aria-label="Projects" href='/projects'>Projects</Button>
 
             </MenuItem>
@@ -115,7 +117,6 @@ export default function PrimarySearchAppBar() {
 
             </AppBar>
             {renderMobileMenu}
-
         </div>
     );
 }
