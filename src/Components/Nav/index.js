@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     },
     sectionDesktop: {
         display: 'none',
-        [theme.breakpoints.up('md')]: {
+        [theme.breakpoints.up('sm')]: {
             display: 'flex',
             position: 'absolute',
             right: '0px',
@@ -46,40 +46,21 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PrimarySearchAppBar() {
     const classes = useStyles();
-    const [anchorEl, setAnchorEl] = React.useState(null);
+  
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
-    const isMenuOpen = Boolean(anchorEl);
+   
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
     const handleMobileMenuClose = () => {
         setMobileMoreAnchorEl(null);
     };
 
-    const handleMenuClose = () => {
-        setAnchorEl(null);
-        handleMobileMenuClose();
-    };
-
     const handleMobileMenuOpen = (event) => {
         setMobileMoreAnchorEl(event.currentTarget);
     };
 
-    const menuId = 'primary-search-account-menu';
-    const renderMenu = (
-        <Menu
-            anchorEl={anchorEl}
-            anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-            id={menuId}
-            keepMounted
-            transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-            open={isMenuOpen}
-            onClose={handleMenuClose}
-        >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-        </Menu>
-    );
+    
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (
@@ -93,11 +74,13 @@ export default function PrimarySearchAppBar() {
             onClose={handleMobileMenuClose}
         >
             <MenuItem>
+
                 <Button aria-label="About Me" href='/' >About Me</Button>
 
             </MenuItem>
 
             <MenuItem>
+
                 <Button aria-label="Projects" href='/projects'>Projects</Button>
 
             </MenuItem>
@@ -134,7 +117,6 @@ export default function PrimarySearchAppBar() {
 
             </AppBar>
             {renderMobileMenu}
-            {renderMenu}
         </div>
     );
 }
