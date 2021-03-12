@@ -92,7 +92,9 @@ export default function AboutMe() {
                         <ProjectCard
                         image={data.image}
                         title={data.title}
-                        description={data.description} 
+                        description={data.description}
+                        repository={data.repository} 
+                        livelink={data.livelink}
                         />
                     </Grid>
                     )};
