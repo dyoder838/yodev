@@ -31,16 +31,21 @@ function App() {
 
   return (
     <Router>
-            
-      <Switch>
+        
         <Grid className={classes.pagecontainer} container>
-          <Grid item xs={12}>
-            <Route exact path="/" component={About}/>
-            <Route exact path="/projects" component={Projects}/>
-          </Grid>
-        </Grid> 
-      </Switch>
-        <Grid className={classes.footercontainer} container
+            <Grid item xs={12}>
+                <Switch>
+        
+                    <Route exact path="/" component={About}/>
+                    <Route exact path="/projects" component={Projects}/>
+          
+                </Switch>
+            </Grid>
+        </Grid>
+
+        <Grid 
+        className={classes.footercontainer}
+        container
         direction="row"
         justify="center"
         alignItems="flex-end"

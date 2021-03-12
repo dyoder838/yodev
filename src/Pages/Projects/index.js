@@ -83,7 +83,7 @@ export default function AboutMe() {
                 <Grid 
                 className={classes.projectcontainer}
                 container
-                spacing= '2'
+                spacing={1}
                 alignItems= 'center'
                 direction= 'column'
                 >
@@ -94,7 +94,7 @@ export default function AboutMe() {
                         title={data.title}
                         description={data.description}
                         repository={data.repository} 
-                        livelink={data.livelink}
+                        liveLink={data.liveLink}
                         />
                     </Grid>
                     )};
