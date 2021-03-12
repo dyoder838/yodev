@@ -10,9 +10,7 @@ import DescriptionIcon from '@material-ui/icons/Description';
 
 const useStyles = makeStyles({
     root: {
-        width: '100%',
-        position: 'sticky',
-        bottom: '0vw', 
+        width: '100%', 
     },
 });
 
