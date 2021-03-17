@@ -5,6 +5,5 @@
     RewriteRule ^(.*)$ https://www.yodeveloper.net/$1 [R,L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [QSA,L]
-    Cross-Origin-Embedder-Policy: require-corp
-    Cross-Origin-Opener-Policy: same-origin
+
     
