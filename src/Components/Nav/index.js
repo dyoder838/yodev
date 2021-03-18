@@ -42,6 +42,10 @@ const useStyles = makeStyles((theme) => ({
             right: '0px',
         },
     },
+    desktopButton: {
+        background: "rgba(255,255,255, 0.6)", 
+        marginLeft: 3,
+    },
 }));
 
 export default function PrimarySearchAppBar() {
@@ -107,9 +111,9 @@ export default function PrimarySearchAppBar() {
 
                     <div className={classes.sectionDesktop}>
 
-                        <Button aria-label="About Me" href='/'>About Me</Button>
+                        <Button className={classes.desktopButton} aria-label="About Me" href='/'>About Me</Button>
 
-                        <Button aria-label="Projects" href='/projects'>Projects</Button>
+                        <Button className={classes.desktopButton} aria-label="Projects" href='/projects'>Projects</Button>
 
                     </div>
 

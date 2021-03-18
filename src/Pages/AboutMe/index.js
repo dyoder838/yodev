@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Nav from '../../Components/Nav';
 import BioCard from '../../Components/BioCard';
 import ImageCard from '../../Components/ImageCard';
+import './style.css';
 
 const useStyles = makeStyles((theme) => ({
     
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.between('2560','3840')]: {
             //4k
             position: 'absolute',
-            top: '30%',
+            top: '40%',
             left: '10%'
           },
         [theme.breakpoints.between('1920','2560')]: {
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.between('1280', '1920')]: {
             //1080
             position: 'absolute',
-            top: '28%',
+            top: '15%',
             left: '10%'
           },
         [theme.breakpoints.between('960', '1280')]: {
@@ -81,7 +82,7 @@ export default function AboutMe() {
                         <ImageCard />
                     </Grid>
 
-                    <Grid className={classes.bio} item xs={12} sm={7} md={7} lg={4}>
+                    <Grid className={classes.bio} item xs={12} sm={7} md={7} lg={5}>
                         <BioCard />
                     </Grid>
 

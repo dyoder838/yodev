@@ -19,8 +19,11 @@ const useStyles = makeStyles((theme) => ({
         width: '100%'
 
     },
-    projectcontainer: {
-        marginBottom: '5%'
+    projectContainer: {
+        marginBottom: '5%',
+    },
+    projectCard: {
+        
     },
     project: {
         
@@ -56,7 +59,8 @@ const useStyles = makeStyles((theme) => ({
           },
         [theme.breakpoints.between('0', '600')]: {
             //cell phone
-            
+            position: 'absolute',
+            top: '8%',
             
           },
     },
@@ -81,7 +85,7 @@ export default function AboutMe() {
             <Grid className={classes.project} item xs={12} md={6} lg={6}>
                 
                 <Grid 
-                className={classes.projectcontainer}
+                className={classes.projectContainer}
                 container
                 spacing={1}
                 alignItems= 'center'
@@ -89,7 +93,8 @@ export default function AboutMe() {
                 >
                     {ProjectsDb.map((data, index) =>
                     <Grid key={index} item xs={12} >
-                        <ProjectCard
+                        <ProjectCard 
+                        className={classes.projectCard}
                         image={data.image}
                         title={data.title}
                         description={data.description}
