@@ -13,35 +13,57 @@ const useStyles = makeStyles({
     root: {
         width: "100%",
         borderRadius: 0,
-        height: 425,
-        
+        height: 500,
+        overflow: 'hidden',
+        background: 'transparent'  
+    },
+    titleArea: {
+        textAlign: 'center',
+        background: 'white',
+    },
+    mediaContainer: {
+        height: 215,
+        width: '100%',
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
     },
     media: {
-        height: 240,
+        height: '100%',
+        width: '100%',
+        objectFit: 'contain',
+    },
+    textArea: {
+        background: 'white',
+    },
+    buttonContainer: {
+        background: 'white'
     },
 });
 
 export default function MediaCard(prop) {
     const classes = useStyles();
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} border={0} elevation={0}>
+            <CardContent className={classes.titleArea}>
+                    <Typography variant="h5" component="h2">
+                        {prop.title}
+                    </Typography>
+                </CardContent>
             <CardActionArea>
+                <section className={classes.mediaContainer}>
                 <CardMedia 
                     component= "img"
                     src={prop.image}
                     className={classes.media}
                     title={prop.title}
                 />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        {prop.title}
-                    </Typography>
+                </section>
+                <CardContent className={classes.textArea}>
                     <Typography variant="body2" color="textSecondary" component="p">
                         {prop.description}
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
+            <CardActions className={classes.buttonContainer}>
                 <Button size="small" color="primary" onClick={() => { window.open(prop.repository, "_blank") }}>
                     GitHib Repo
         </Button>
