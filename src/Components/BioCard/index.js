@@ -36,7 +36,7 @@ export default function OutlinedCard() {
                 </Typography>
                 <br />
                 <Typography className={classes.whois}>
-                    I am an aspiring Full-Stack Web Developer from Seattle, Washington.
+                    I am a Full-Stack Web Developer from Seattle, Washington.
                 </Typography>
                 <br />
                 <Typography className={classes.story}>
@@ -47,16 +47,15 @@ export default function OutlinedCard() {
                 </Typography>
                 <br />
                 <Typography className={classes.story}>
-                    I incorporate my education in communications,
-                    experience in Business Management, and adaptability from my service in the military; with a
+                    I incorporate my BA in communications,
+                    5 years of experience in Business Management, and adaptability from my 9 years of service in the military; with a
                     certificate in Full Stack Web Development from the University of Washington.
                 </Typography>
                 <br />
                 <Typography className={classes.story}>
-                    I am known for extreme focus, outstanding team communication, and strong problem-solving skills using
-                    JavaScript, HTML, CSS, NODE.js, MySQL, Bootstrap, Stackoverflow, React and Google search... I am
+                    I am known for extreme focus, outstanding team communication, and strong problem-solving skills both in the front end and back end. I am
                     passionate about providing a world class user experience and streamlined functionality both
-                    to developers and end users.
+                    to fellow developers and end users.
                 </Typography>
 
             </CardContent>
