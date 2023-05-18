@@ -34,7 +34,7 @@ function App() {
         
         <Grid className={classes.pagecontainer} container>
             <Grid item xs={12}>
-                <Switch>
+                <Switch basename="/yodev">
         
                     <Route exact path="/" component={About}/>
                     <Route exact path="/projects" component={Projects}/>
