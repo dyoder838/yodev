@@ -30,7 +30,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router>
+    <Router basename="/yodev" >
         
         <Grid className={classes.pagecontainer} container>
             <Grid item xs={12}>
