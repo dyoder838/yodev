@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yodev/static/css/main.e86c55c7.chunk.css",
+    "main.js": "/yodev/static/js/main.2701194f.chunk.js",
+    "main.js.map": "/yodev/static/js/main.2701194f.chunk.js.map",
+    "runtime-main.js": "/yodev/static/js/runtime-main.5c930599.js",
+    "runtime-main.js.map": "/yodev/static/js/runtime-main.5c930599.js.map",
+    "static/js/2.fe3a2b09.chunk.js": "/yodev/static/js/2.fe3a2b09.chunk.js",
+    "static/js/2.fe3a2b09.chunk.js.map": "/yodev/static/js/2.fe3a2b09.chunk.js.map",
+    "static/js/3.e6c7fd73.chunk.js": "/yodev/static/js/3.e6c7fd73.chunk.js",
+    "static/js/3.e6c7fd73.chunk.js.map": "/yodev/static/js/3.e6c7fd73.chunk.js.map",
+    "index.html": "/yodev/index.html",
+    "static/css/main.e86c55c7.chunk.css.map": "/yodev/static/css/main.e86c55c7.chunk.css.map",
+    "static/js/2.fe3a2b09.chunk.js.LICENSE.txt": "/yodev/static/js/2.fe3a2b09.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/yodev/static/media/djy4.5117d773.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c930599.js",
+    "static/js/2.fe3a2b09.chunk.js",
+    "static/css/main.e86c55c7.chunk.css",
+    "static/js/main.2701194f.chunk.js"
+  ]
+}
