@@ -30,14 +30,14 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router basename="/yodev" >
+    <Router >
         
         <Grid className={classes.pagecontainer} container>
             <Grid item xs={12}>
-                <Switch basename="/yodev">
+                <Switch >
         
-                    <Route basename="/yodev" path="/yodev/" component={About}/>
-                    <Route basename="/yodev" path="/yodev/projects" component={Projects}/>
+                    <Route  path="/" component={About}/>
+                    <Route path="/projects" component={Projects}/>
           
                 </Switch>
             </Grid>

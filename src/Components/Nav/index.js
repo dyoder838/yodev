@@ -79,13 +79,13 @@ export default function PrimarySearchAppBar() {
         >
             <MenuItem>
 
-                <Button aria-label="About Me" href='/yodev/' >About Me</Button>
+                <Button aria-label="About Me" href='/' >About Me</Button>
 
             </MenuItem>
 
             <MenuItem>
 
-                <Button aria-label="Projects" href='/yodev/projects'>Projects</Button>
+                <Button aria-label="Projects" href='/projects'>Projects</Button>
 
             </MenuItem>
 
