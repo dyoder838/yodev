@@ -6,7 +6,7 @@ import App from './App';
 
 
 ReactDOM.render(
-  <BrowserRouter basename="/repo-name" >
+  <BrowserRouter basename={"/yodev"} >
     <App />
   </BrowserRouter>,
   document.getElementById('root')
