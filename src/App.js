@@ -36,8 +36,8 @@ function App() {
             <Grid item xs={12}>
                 <Switch basename="/yodev">
         
-                    <Route basename="/yodev" path="/" component={About}/>
-                    <Route basename="/yodev" path="/projects" component={Projects}/>
+                    <Route basename="/yodev" path="/yodev/" component={About}/>
+                    <Route basename="/yodev" path="/yodev/projects" component={Projects}/>
           
                 </Switch>
             </Grid>
