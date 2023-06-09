@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import About from '../src/Pages/AboutMe'
 import Projects from '../src/Pages/Projects'
@@ -34,12 +34,12 @@ function App() {
         
         <Grid className={classes.pagecontainer} container>
             <Grid item xs={12}>
-                <Switch >
+                <Routes >
         
-                    <Route  path="/" component={About}/>
-                    <Route path="/projects" component={Projects}/>
+                    <Route  path="/" element={<About />}/>
+                    <Route path="/projects" element={<Projects />}/>
           
-                </Switch>
+                </Routes>
             </Grid>
         </Grid>
 
